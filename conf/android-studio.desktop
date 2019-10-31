@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Name=android-studio
+Comment=android-studio
+Exec=/home/shizh/tools/android-studio/bin/studio.sh
+Icon=/home/shizh/tools/android-studio/bin/studio.png
+Path=/home/shizh/tools/android-studio/bin/
+Type=Application
+
+
+
