@@ -1,0 +1,228 @@
+version: 3
+profiles: []
+hotkeys:
+  toggle-window: []
+  copy-current-path: []
+  scroll-to-bottom: []
+  ctrl-c:
+    - Ctrl-C
+  copy:
+    - Ctrl-Shift-C
+  paste:
+    - Ctrl-Shift-V
+    - Shift-Insert
+  select-all:
+    - Ctrl-Shift-A
+  clear: []
+  zoom-in:
+    - Ctrl-=
+    - Ctrl-Shift-=
+  zoom-out:
+    - Ctrl--
+    - Ctrl-Shift--
+  reset-zoom:
+    - Ctrl-0
+  home:
+    - Home
+  end:
+    - End
+  previous-word:
+    - Ctrl-Left
+  next-word:
+    - Ctrl-Right
+  delete-previous-word:
+    - Ctrl-Backspace
+  delete-next-word:
+    - Ctrl-Delete
+  search:
+    - Ctrl-Shift-F
+  pane-focus-all:
+    - Ctrl-Shift-I
+  restart-telnet-session: []
+  restart-ssh-session: []
+  launch-winscp: []
+  settings:
+    - Ctrl-,
+  serial:
+    - Alt-K
+  restart-serial-session: []
+  new-window:
+    - Ctrl-Shift-N
+  new-tab:
+    - Ctrl-Shift-T
+  profile: {}
+  profile-selectors: {}
+  toggle-fullscreen:
+    - F11
+  close-tab:
+    - Ctrl-Shift-W
+  reopen-tab:
+    - Ctrl-Shift-T
+  toggle-last-tab: []
+  rename-tab:
+    - Ctrl-Shift-R
+  next-tab:
+    - - Ctrl-PageDown
+    - - Ctrl-Tab
+  previous-tab:
+    - - Ctrl-PageUp
+    - - Ctrl-Shift-Tab
+  move-tab-left:
+    - Ctrl-Shift-PageUp
+  move-tab-right:
+    - Ctrl-Shift-PageDown
+  rearrange-panes:
+    - Ctrl-Shift
+  duplicate-tab: []
+  tab-1:
+    - Alt-1
+  tab-2:
+    - Alt-2
+  tab-3:
+    - Alt-3
+  tab-4:
+    - Alt-4
+  tab-5:
+    - Alt-5
+  tab-6:
+    - Alt-6
+  tab-7:
+    - Alt-7
+  tab-8:
+    - Alt-8
+  tab-9:
+    - Alt-9
+  tab-10:
+    - Alt-0
+  tab-11: []
+  tab-12: []
+  tab-13: []
+  tab-14: []
+  tab-15: []
+  tab-16: []
+  tab-17: []
+  tab-18: []
+  tab-19: []
+  tab-20: []
+  split-right:
+    - Ctrl-Shift-E
+  split-bottom:
+    - Ctrl-Shift-D
+  split-left: []
+  split-top: []
+  pane-nav-right:
+    - Ctrl-Alt-Right
+  pane-nav-down:
+    - Ctrl-Alt-Down
+  pane-nav-up:
+    - Ctrl-Alt-Up
+  pane-nav-left:
+    - Ctrl-Alt-Left
+  pane-nav-previous:
+    - Ctrl-Alt-[
+  pane-nav-next:
+    - Ctrl-Alt-]
+  pane-maximize:
+    - Ctrl-Alt-Enter
+  close-pane: []
+  switch-profile:
+    - Ctrl-Alt-T
+  profile-selector:
+    - Ctrl-Shift-T
+terminal:
+  searchOptions: {}
+  colorScheme:
+    name: Atom-my
+    foreground: '#d7d8db'
+    background: '#240f1a'
+    cursor: '#d0d0d0'
+    colors:
+      - '#192d34'
+      - '#fd5ff1'
+      - '#20e848'
+      - '#ffd7b1'
+      - '#364dff'
+      - '#b9b6fc'
+      - '#364dff'
+      - '#e0e0e0'
+      - '#000000'
+      - '#fd5ff1'
+      - '#10b328'
+      - '#364dff'
+      - '#2d71fa'
+      - '#b9b6fc'
+      - '#24dde3'
+      - '#e0e0e0'
+  linePadding: 4
+  customColorSchemes:
+    - name: Atom
+      foreground: '#e6e9f5'
+      background: '#161719'
+      cursor: '#d0d0d0'
+      colors:
+        - '#192d34'
+        - '#fd5ff1'
+        - '#2f332f'
+        - '#ffd7b1'
+        - '#4368fa'
+        - '#b9b6fc'
+        - '#4368fa'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#10b328'
+        - '#f5ffa8'
+        - '#4368fa'
+        - '#b9b6fc'
+        - '#4368fa'
+        - '#e0e0e0'
+    - name: Atom-my
+      foreground: '#d7d8db'
+      background: '#240f1a'
+      cursor: '#d0d0d0'
+      colors:
+        - '#192d34'
+        - '#fd5ff1'
+        - '#20e848'
+        - '#ffd7b1'
+        - '#364dff'
+        - '#b9b6fc'
+        - '#364dff'
+        - '#e0e0e0'
+        - '#000000'
+        - '#fd5ff1'
+        - '#10b328'
+        - '#364dff'
+        - '#2d71fa'
+        - '#b9b6fc'
+        - '#24dde3'
+        - '#e0e0e0'
+  fontSize: 16
+  copyOnSelect: true
+  ligatures: true
+  font: DejaVu Sans Mono
+  hideTabIndex: true
+  hideCloseButton: true
+  rightClick: 'off'
+  background: colorScheme
+  warnOnMultilinePaste: false
+ssh: {}
+configSync:
+  parts: {}
+clickableLinks:
+  modifier: ctrlKey
+appearance:
+  theme: Compact
+  opacity: 0.67
+  frame: native
+  dock: left
+hacks: {}
+enableWelcomeTab: false
+pluginBlacklist: []
+profileDefaults: {}
+electronFlags:
+  - - force_discrete_gpu
+    - '0'
+language: en-US
+enableAutomaticUpdates: false
+enableAnalytics: false
